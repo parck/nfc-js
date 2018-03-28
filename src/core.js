@@ -111,7 +111,7 @@ function onMessage(message, data) {
                 i++;
             }
             response[response.length] = 144;
-            response[response.length + 1] = 0;
+            response[response.length] = 0;
             break;
         case STATUS_DONE:
             response = [106, 130];
